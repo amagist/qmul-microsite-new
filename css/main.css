@@ -133,6 +133,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .section-title-black, .section-subtitle-black {
   color: #000;
+  width: 70%;
+  margin-left: 14%;
+
 }
 
 .section-title-white, .section-subtitle-white {
@@ -1134,6 +1137,11 @@ button:focus {
 
 .table-left {
   margin-top: 20px;
+}
+
+.question {
+  color: #6f809f;
+  font-weight: bold;
 }
 
 /* ==========================================================================
