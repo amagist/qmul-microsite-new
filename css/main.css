@@ -1525,7 +1525,8 @@ footer {
   height:450px;
   overflow:hidden;
   position: fixed;
-  bottom: 0px;
+  bottom: 18px;
+  left: 15px;
   z-index: 3;
 }
 
@@ -1533,13 +1534,14 @@ footer {
   position: fixed;
   width: 400px;
   z-index: 4;
-  bottom: 0px;
+  bottom: 18px;
+  left: 15px;
   display: block;
   border-color:#6f809f !important;
   border:2px solid;
   border-top-right-radius: 25px;
-  /*border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;*/
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   padding: 10px;
   margin: 0;
