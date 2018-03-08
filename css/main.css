@@ -1069,6 +1069,10 @@ button:focus {
   display: inline-block;
 }
 
+.benefits-student ul, .benefits-employer ul {
+  text-align: left;
+}
+
 .benefit-subtitle {
   color: #6f809f;
 }
@@ -1512,5 +1516,29 @@ footer {
 
 .chatbot {
   width: 100%;
-  height: 600px;
+  height: 100%;
+  position: relative;
+}
+
+.chatbot-container {
+  width:400px;
+  height:450px;
+  overflow:hidden;
+  position: fixed;
+  bottom: 0px;
+  z-index: 3;
+}
+
+#chatbot-button {
+  position: fixed;
+  width: 400px;
+  z-index: 4;
+  bottom: 0px;
+  display: block;
+  border-color:#6f809f !important;
+  border:2px solid;
+  /*border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;*/
+  padding: 10px;
+  margin: 0;
 }
