@@ -1537,8 +1537,10 @@ footer {
   display: block;
   border-color:#6f809f !important;
   border:2px solid;
-  /*border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;*/
+  border-top-right-radius: 25px;
+  /*border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;*/
+  border-top-left-radius: 25px;
   padding: 10px;
   margin: 0;
 }
